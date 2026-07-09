@@ -1,7 +1,7 @@
 {
   "buttons": {
-    "11": {"topic": "contatora/command", "payload": "ON", "label": "Contatora ON"},
-    "12": {"topic": "contatora/command", "payload": "OFF", "label": "Contatora OFF"},
+    "11": {"topic": "contatora/cmd", "payload": "ON", "label": "Contatora ON"},
+    "12": {"topic": "contatora/cmd", "payload": "OFF", "label": "Contatora OFF"},
     "13": {"topic": "helm/mode", "payload": "AUTO", "label": "Auto-Pilot"},
     "14": {"topic": "helm/mode", "payload": "MAN", "label": "Manual-Pilot"},
     "1": {"topic": "console/center", "payload": "RESET", "label": "Center Reset Button"},
