@@ -1,0 +1,22 @@
+{
+  "buttons": {
+    "11": {"topic": "contatora/command", "payload": "ON", "label": "Contatora ON"},
+    "12": {"topic": "contatora/command", "payload": "OFF", "label": "Contatora OFF"},
+    "13": {"topic": "helm/mode", "payload": "AUTO", "label": "Auto-Pilot"},
+    "14": {"topic": "helm/mode", "payload": "MAN", "label": "Manual-Pilot"},
+    "1": {"topic": "console/center", "payload": "RESET", "label": "Center Reset Button"},
+    "0": {"topic": "console/aux1", "payload": "TOGGLE", "label": "Aux 0 Button"},
+    "8": {"topic": "console/aux2", "payload": "TOGGLE", "label": "Aux 8 Button"}
+  },
+  "hats": {
+    "0,1": {"topic": "navigation/direction", "payload": "NORTH", "label": "Nav Pad Up"},
+    "0,-1": {"topic": "navigation/direction", "payload": "SOUTH", "label": "Nav Pad Down"},
+    "-1,0": {"topic": "navigation/direction", "payload": "WEST", "label": "Nav Pad Left"},
+    "1,0": {"topic": "navigation/direction", "payload": "EAST", "label": "Nav Pad Right"}
+  },
+  "axes": {
+    "3": {"topic": "ship/rudder", "label": "Rudder level"},
+    "4": {"topic": "ship/steering", "label": "Left throttle lever"},
+    "5": {"topic": "ship/throttle", "label": "Right throttle lever"}
+  }
+}
